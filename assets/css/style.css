@@ -102,6 +102,56 @@ footer ul li {
   display: inline;
 }
 
+#surf-report {
+    background-image: url("https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29kZSUyMHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .02px;
+    -webkit-text-stroke-color: black;
+    opacity: .75;
+}
+
+#led-wall {
+    background-image: url("https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGVkJTIwd2FsbCUyMGxpZ2h0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .02px;
+    -webkit-text-stroke-color: black;
+    opacity: .75;
+}
+
+#calculator {
+    background-image: url("https://media.istockphoto.com/photos/numbers-backlit-keyboard-picture-id1296576006?b=1&k=20&m=1296576006&s=170667a&w=0&h=VMHrs2njQ2dnLX_x3HHjEWFIDTHG3gZ9-z_foqhGR2U=");
+    background-size: cover;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .02px;
+    -webkit-text-stroke-color: black;
+    opacity: .75;
+}
+
+#pastel-puzzles {
+    background-image: url("https://media.istockphoto.com/photos/metallic-puzzle-pieces-picture-id175494927?b=1&k=20&m=175494927&s=170667a&w=0&h=sFH5x6m1f2_1tkOLAS-XkADYLQJqXTxXMwNxTyoz1ko=");
+    background-size: cover;
+    color: black;
+    /* -webkit-text-fill-color: white; /* Will override color (regardless of order)
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black; */
+    opacity: .75; 
+}
+
+#run-buddy {
+    background-image: url("https://media.istockphoto.com/photos/circuit-board-blue-computer-data-technology-artificial-intelligence-picture-id1226985345?b=1&k=20&m=1226985345&s=170667a&w=0&h=ClLPnCS8me5cK-fra_efI7xz36E929B8RNjgdjK792k=");
+    background-size: cover;
+    color: black;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .02px;
+    -webkit-text-stroke-color: black;
+    opacity: .75;
+}
+
 @media screen and (max-width: 768px) {
   main,
   nav {
