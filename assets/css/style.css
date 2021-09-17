@@ -15,6 +15,10 @@ header {
     padding: 40px;
     height: 200px;
     text-align: center;
+    background-image: url(/images/wireframe.jpg);
+}
+header img {
+    float: left;
 }
 
 header h1{
@@ -36,60 +40,97 @@ nav a {
  
    
 }
-
-aside {
-    display: block;
+footer ul li {
+    display: inline;
 }
+
+img {
+
+    width: 80%;
+    border-radius: 25px;
+ 
+}
+
+.thebox1 {
+    float:left;
+    padding: 20px;
+    width: 25%;
+    clear: both;
+    height: 100%;
+    text-align: center;
+} 
 
 .container {
     display: flex;
     flex-wrap: wrap;
     padding: 5%;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .products {
-    margin-bottom: 20px;
-    padding:50 px;
-    height: 100px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+    padding: 20px;
+    width: 100%; 
+    height: auto;
+    border: dashed black;
+    border-radius:  20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1 0 200px;
+    flex-grow: 1;
 
 }
 
+.products:first-child {
+    flex: 2 1 200 px
+}
 
 .border {
     background:darkcyan;
 }
 
 footer {
+    
+    bottom: 0%;
+    width: 100%;
     text-align: center;
+   
 }
+
 footer ul {
     
     list-style-type: none;
-} 
 
-@media screen and (min-width:600px) {
+}
+
+  
+
+@media screen and (max-width:480px) {
+    main, 
+    nav {
+        flex-direction: column;
+    }
+    
+    .thebox1 {
+        float:none;
+        order: 1;
+        width: 100%
+    }
+
+    
+}
+
+
+@media screen and (min-width:768px) {
     .products {
         flex-basis: 50%;
-        padding-right: 5%;
+        
     }
     .products:first-child {
-        flex-basis: 50%
-    }
-@media screen and (min-width: 1000px) {
-    .products {
-        flex-basis: 33%
-    }
-    .products:first-child {
-        flex-basis: 66%;
+        flex-basis: 100%
     }
 
-@media screen and (min-width: 1400px) {
-    .products {
-        flex-basis: 25%;
-    }
-    .products {
-        flex-basis: 50%;
+
     }
 
 
