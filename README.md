@@ -15,8 +15,8 @@ Build a Portfolio website that showcases elements learned in unit 2.
 
 ## Screen Shot
 
-![Screenshot of website - desktop](screenshot.png)
-![Screenshot of website - mobile](screenshot2.png)
+![Screenshot of website - desktop](updatedScreenshotFull.jpg)
+![Screenshot of website - mobile](updatedScreenshotMobile.jpg)
 
 ---
 2021  W3HT
