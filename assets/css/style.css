@@ -103,11 +103,11 @@ footer ul li {
   display: inline;
 }
 
-#surf-report {
-  background-image: url("https://media.istockphoto.com/photos/cloud-network-solution-picture-id1273823720?b=1&k=20&m=1273823720&s=170667a&w=0&h=ABsUVn4aZc1_nn2ftEijeVpIBeKTiTxuAH1hFdTIo7c=");
-  background-size: cover;
-  color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+#pass-gen {
+  text-align: center;
+  color: white;
+  background-color: black;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 0.02px;
   -webkit-text-stroke-color: black;
   -webkit-background-size: cover;
@@ -115,6 +115,7 @@ footer ul li {
   -o-background-size: cover;
   background-size: cover;
   opacity: 0.75;
+ 
 }
 
 #led-wall {
@@ -135,14 +136,14 @@ footer ul li {
   background-image: url("https://media.istockphoto.com/photos/numbers-backlit-keyboard-picture-id1296576006?b=1&k=20&m=1296576006&s=170667a&w=0&h=VMHrs2njQ2dnLX_x3HHjEWFIDTHG3gZ9-z_foqhGR2U=");
   background-size: cover;
   color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.02px;
+  -webkit-text-fill-color:  white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 0.75;
+  
 }
 
 #pastel-puzzles {
