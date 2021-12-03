@@ -103,10 +103,10 @@ footer ul li {
   display: inline;
 }
 
-#pass-gen {
+
+#project-one {
   text-align: center;
   color: black;
-  background-color: black;
   /* -webkit-text-fill-color: black; Will override color (regardless of order) */
   /* -webkit-text-stroke-width: 0.02px;
   -webkit-text-stroke-color: black;
@@ -115,13 +115,19 @@ footer ul li {
   -o-background-size: cover; */
   background-size: cover;
   opacity: 0.75;
+}
+
+#pass-gen {
+  text-align: center;
+  color: black;
+  background-size: cover;
+  opacity: 0.75;
  
 }
 
 #code-quiz {
   text-align: center;
   background-size: cover;
-  color: black;
   background-size: cover;
   opacity: 0.75;
 }
